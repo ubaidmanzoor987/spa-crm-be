@@ -1,0 +1,41 @@
+import { Gender } from "../enum/gender";
+import { Roles } from "../enum/roles";
+
+export const adminUser = {
+    email: 'crm@admin.com',
+    password: 'crm@123',
+    firstName: 'crm',
+    lastName: 'crm',
+    gender: Gender.male,
+    dob: '1991-02-02',
+    role: Roles.admin,
+    branch_id: '1',
+    phone: '123456789',
+    department: 'main',
+    salary: '10000',
+    presentAddress: 'Dubai',
+    permanentAddress: 'Dubai',
+    passport: '123456',
+    idCard: '123456',
+    commission_per_service: '2%',
+    profile_picture: '',
+};
+export const superAdminUser = {
+    email: 'crm@superadmin.com',
+    password: 'crm@123',
+    firstName: 'crm',
+    lastName: 'crm',
+    gender: Gender.male,
+    dob: '1991-02-04',
+    role: Roles.superAdmin,
+    branch_id: '1',
+    phone: '123456789',
+    department: 'Head',
+    salary: '100000',
+    presentAddress: 'Dubai',
+    permanentAddress: 'Dubai',
+    passport: '123456',
+    idCard: '123456',
+    commission_per_service: '2%',
+    profile_picture: '',
+};
